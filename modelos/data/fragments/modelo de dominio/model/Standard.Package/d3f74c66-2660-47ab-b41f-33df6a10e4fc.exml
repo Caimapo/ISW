@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Plataforma Clasificadora De Contenido " version="4">
+  <OBJECT>
+    <ID name="Plataforma Clasificadora De Contenido " mc="Standard.Package" uid="d3f74c66-2660-47ab-b41f-33df6a10e4fc"/>
+    <PID name="modelo de dominio" mc="Standard.Project" uid="864bc37f-83dd-49f1-8769-a729b0a99f94"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Plataforma Clasificadora De Contenido ]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Profesor" mc="Standard.Actor" uid="4c49625c-f6be-4dea-9fca-8d8bb01158a4"/>
+        <COMPID name="Experto" mc="Standard.Actor" uid="c9c8f48f-a6b2-4b62-a9e2-1b4f01c68f88"/>
+        <COMPID name="Buscar Contenido" mc="Standard.UseCase" uid="63de8863-2b62-4c8c-823d-04c2c399a8a0"/>
+        <COMPID name="Administrar Paginas" mc="Standard.UseCase" uid="64f6b2ce-7078-4012-822a-39576a91774c"/>
+        <COMPID name="Mostrar Contenido" mc="Standard.UseCase" uid="c85a3d6a-d8bc-4c6c-a562-487183bba42e"/>
+        <COMPID name="Descargar Datos" mc="Standard.UseCase" uid="c6c8650d-2f6d-409f-8f66-b50faa5e47d5"/>
+        <COMPID name="Verificar Etiqueta" mc="Standard.UseCase" uid="8106e311-d191-477b-bc62-921607c877cb"/>
+        <COMPID name="Guardar Etiqueta" mc="Standard.UseCase" uid="f0beb1f8-f86c-4de2-9d0f-ee536671be86"/>
+        <COMPID name="Administrar Pefiles" mc="Standard.UseCase" uid="9fabe204-1d00-4baa-892a-d00d53452298"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagrama clases Use Case diagram" mc="Standard.UseCaseDiagram" uid="715e6909-9604-41fd-80b6-254d74f670e0"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

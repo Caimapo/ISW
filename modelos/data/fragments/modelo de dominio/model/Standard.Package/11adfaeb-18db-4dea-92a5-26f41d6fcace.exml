@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="modelo de dominio" version="4">
+  <OBJECT>
+    <ID name="modelo de dominio" mc="Standard.Package" uid="11adfaeb-18db-4dea-92a5-26f41d6fcace"/>
+    <PID name="modelo de dominio" mc="Standard.Project" uid="864bc37f-83dd-49f1-8769-a729b0a99f94"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[modelo de dominio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Profesor" mc="Standard.Class" uid="64dd9397-b0f2-4f34-96a7-a78443ce8362"/>
+        <COMPID name="Experto" mc="Standard.Class" uid="8df59d8d-124a-4f93-bf77-fe65e879dd95"/>
+        <COMPID name="Pagina Web" mc="Standard.Class" uid="70144b04-394e-4ff8-bac0-55b7a4f5697b"/>
+        <COMPID name="Material" mc="Standard.Class" uid="579354a6-2e2c-4023-a088-47116ea6fb24"/>
+        <COMPID name="Persona" mc="Standard.Class" uid="34eb4834-f69c-445e-aeeb-c35b38e3ff44"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="modelo de dominio Class diagram" mc="Standard.ClassDiagram" uid="2beef4d1-ac7b-41e1-8b7d-ab89deb07cdb"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
