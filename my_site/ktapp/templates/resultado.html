@@ -1,0 +1,17 @@
+<body>
+<h1>Resultados</h1>
+<table>
+    <tr>
+        <th>#</th>
+        <th>texto</th>
+        <th>imagenes</th>
+    </tr>
+    {% for documento in all_documentos %}
+    <tr>
+        <th>{{ documento.numero }}</th>
+        <th>{{ documento.texto }}</th>
+        <th>imagenes</th>
+    </tr>
+{% endfor %}
+</table>
+</body>S
