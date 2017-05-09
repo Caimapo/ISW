@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VistaProfesor" version="4">
+  <OBJECT>
+    <ID name="VistaProfesor" mc="Standard.Class" uid="eb2364c8-4145-462e-9fe2-d6c7c3ba161a"/>
+    <PID name="diagrama de clases" mc="Standard.Package" uid="aa4e4afd-fbe3-4693-a4f9-f626a808c366"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VistaProfesor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="BuscarContenido" mc="Standard.Signal" uid="7aafd732-2feb-41c1-8f01-8c9148adb57a"/>
+        <COMPID name="VerificarEtiqueta" mc="Standard.Signal" uid="b9a7e59a-8a7d-46fd-80af-6573e281c250"/>
+        <COMPID name="DescargarDatos" mc="Standard.Signal" uid="e4f76ab1-e536-407e-abad-35b203e5dac8"/>
+      </COMP>
+      <COMP relation="DependsOnDependency">
+        <OBJECT>
+          <ID name="" mc="Standard.Usage" uid="a963ee5b-8e53-4e0e-b4d4-17af4d947ee4"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="DependsOn">
+              <ID name="ModeloProfesor" mc="Standard.Class" uid="3999bea1-c475-40bb-81f3-6a5cab8ac81c"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

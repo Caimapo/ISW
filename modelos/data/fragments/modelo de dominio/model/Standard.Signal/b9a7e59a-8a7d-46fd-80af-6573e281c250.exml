@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="VerificarEtiqueta" version="4">
+  <OBJECT>
+    <ID name="VerificarEtiqueta" mc="Standard.Signal" uid="b9a7e59a-8a7d-46fd-80af-6573e281c250"/>
+    <PID name="VistaProfesor" mc="Standard.Class" uid="eb2364c8-4145-462e-9fe2-d6c7c3ba161a"/>
+    <ATTRIBUTES>
+      <ATT name="IsEvent">false</ATT>
+      <ATT name="IsException">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[VerificarEtiqueta]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -11,7 +11,10 @@
     <DEPENDENCIES>
       <COMP relation="Model">
         <COMPID name="modelo de dominio" mc="Standard.Package" uid="11adfaeb-18db-4dea-92a5-26f41d6fcace"/>
-        <COMPID name="Diagrama clases" mc="Standard.Package" uid="d3f74c66-2660-47ab-b41f-33df6a10e4fc"/>
+        <COMPID name="Plataforma Clasificadora De Contenido " mc="Standard.Package" uid="d3f74c66-2660-47ab-b41f-33df6a10e4fc"/>
+        <COMPID name="diagrama de clases" mc="Standard.Package" uid="aa4e4afd-fbe3-4693-a4f9-f626a808c366"/>
+        <COMPID name="Diagrama de secuencia 1" mc="Standard.Package" uid="950eda0d-3a8c-4832-b8f7-28ed665a062f"/>
+        <COMPID name="Diagrama de secuencia 2" mc="Standard.Package" uid="852a068c-c77e-4f49-8c70-d6ce32a97ce0"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="modelo de dominio" mc="Infrastructure.DiagramSet" uid="5e4d9e90-a83e-43ed-bcd9-4eceaf18fb75"/>

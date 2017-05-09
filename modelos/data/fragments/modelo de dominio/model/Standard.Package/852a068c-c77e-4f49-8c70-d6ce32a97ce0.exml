@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama de secuencia 2" version="4">
+  <OBJECT>
+    <ID name="Diagrama de secuencia 2" mc="Standard.Package" uid="852a068c-c77e-4f49-8c70-d6ce32a97ce0"/>
+    <PID name="modelo de dominio" mc="Standard.Project" uid="864bc37f-83dd-49f1-8769-a729b0a99f94"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrama de secuencia 2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="5ab113d3-d4f8-4987-b3fd-372ccc19c4bc"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Profesor" mc="Standard.Class" uid="a1908ee7-b4ac-408e-958f-e2928e8cee02"/>
+        <COMPID name="GuiDescarga" mc="Standard.Interface" uid="4212f481-77c6-4f1f-9b86-91099f09759c"/>
+        <COMPID name="Controller" mc="Standard.Interface" uid="da8dc97d-6412-4918-bf19-47b8dd51406c"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

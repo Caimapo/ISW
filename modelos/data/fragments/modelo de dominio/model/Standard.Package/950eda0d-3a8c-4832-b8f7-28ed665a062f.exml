@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Diagrama de secuencia 1" version="4">
+  <OBJECT>
+    <ID name="Diagrama de secuencia 1" mc="Standard.Package" uid="950eda0d-3a8c-4832-b8f7-28ed665a062f"/>
+    <PID name="modelo de dominio" mc="Standard.Project" uid="864bc37f-83dd-49f1-8769-a729b0a99f94"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Diagrama de secuencia 1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="93fba866-f2e4-4681-98d8-cb6ab9d83f67"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Profesor" mc="Standard.Class" uid="c9ccf3e5-712d-4482-8392-6f3b3beb9863"/>
+        <COMPID name="Material" mc="Standard.Class" uid="179f9138-179e-4117-983a-983042a7a7e5"/>
+        <COMPID name="Scripter" mc="Standard.Interface" uid="800a0eb0-051d-4b4d-a318-96e0e1443c8a"/>
+        <COMPID name="GuiBusqueda" mc="Standard.Interface" uid="9b2d957f-b924-4c74-a428-c54ef58c191f"/>
+        <COMPID name="Controller" mc="Standard.Interface" uid="1bd5b136-fff6-43f8-ae11-2be7bcd73dcc"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

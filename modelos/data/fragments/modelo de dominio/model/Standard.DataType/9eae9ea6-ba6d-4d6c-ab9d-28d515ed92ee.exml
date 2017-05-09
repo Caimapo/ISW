@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="material" version="4">
+  <OBJECT>
+    <ID name="material" mc="Standard.DataType" uid="9eae9ea6-ba6d-4d6c-ab9d-28d515ed92ee"/>
+    <PID name="ModeloProfesor" mc="Standard.Class" uid="3999bea1-c475-40bb-81f3-6a5cab8ac81c"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">true</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[material]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

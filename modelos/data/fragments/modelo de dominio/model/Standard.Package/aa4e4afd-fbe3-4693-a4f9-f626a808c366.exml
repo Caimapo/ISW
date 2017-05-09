@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="diagrama de clases" version="4">
+  <OBJECT>
+    <ID name="diagrama de clases" mc="Standard.Package" uid="aa4e4afd-fbe3-4693-a4f9-f626a808c366"/>
+    <PID name="modelo de dominio" mc="Standard.Project" uid="864bc37f-83dd-49f1-8769-a729b0a99f94"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[diagrama de clases]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Profesor" mc="Standard.Class" uid="aaf43272-796d-48ab-a380-9d2a648196db"/>
+        <COMPID name="VistaProfesor" mc="Standard.Class" uid="eb2364c8-4145-462e-9fe2-d6c7c3ba161a"/>
+        <COMPID name="ModeloProfesor" mc="Standard.Class" uid="3999bea1-c475-40bb-81f3-6a5cab8ac81c"/>
+        <COMPID name="ControllerProfesor" mc="Standard.Class" uid="45967116-235d-494c-b30d-9329871c29f9"/>
+        <COMPID name="Material" mc="Standard.Class" uid="b7367d98-bc19-4eb1-8a1e-3ce44729c122"/>
+        <COMPID name="Etiqueta" mc="Standard.Class" uid="c5eb2a1c-c458-4de0-997e-9061334cc4ab"/>
+        <COMPID name="Clasificador" mc="Standard.Class" uid="edc13df3-bb87-40fe-ac95-2883538069b1"/>
+        <COMPID name="EstrategiaTexto" mc="Standard.Class" uid="cadda028-f481-41fa-9049-f40356fb736b"/>
+        <COMPID name="EstrategiaImagen" mc="Standard.Class" uid="6f1f46d7-35b8-4399-9cf5-b8d83ddc857f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="diagrama de clases Class diagram" mc="Standard.ClassDiagram" uid="7879a244-a731-49e5-889a-506b202ee4f8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
