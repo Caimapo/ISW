@@ -1,0 +1,47 @@
+{% block title %}Registrar{% endblock %}
+{% block body %}
+<html lang="en">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Satisfy" >
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand">BearHammer</a>
+        </div>
+
+    </div>
+
+</nav>
+<div class="container-fluid">
+    <div class="col-sm-12 col-md-7">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>Crear Nuevo Usuario</h3>
+                {% if error_massage %}
+                    <p><strong>{{ error_massage }}</strong></p>
+                {% endif %}
+                <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {% include 'form-template.html' %}
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-success">Registrar</button>
+                        </div>
+                    </div>
+                </form>
+                <form class="form-horizontal" action="/" method="GET" enctype="multipart/form-data">
+                    <button type="submit" class="btn btn-primary" value="registrar">Cancelar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,19 @@
+Un remolcador ejerce una fuerza paralela y constante de 4.000 N sobre un barco y lo mueve una distancia de 15 m a través del puerto. ¿Qué trabajo realizó el remolcador?
+
+Datos:
+
+F = 4.000 N
+
+d = 15 m
+
+T = x
+
+Fórmula
+
+T = F · d
+
+Entonces
+
+T = 4.000 N x 15 m = 6.000 J
+
+R espuesta : El remolcador realizó un trabajo equivalente a 6.000 J.----aquisecortaeltexto----Asimiladorhola

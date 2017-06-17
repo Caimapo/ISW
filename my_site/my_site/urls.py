@@ -17,13 +17,18 @@ from django.conf.urls import url
 from django.contrib import admin
 from ktapp import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.contrib.auth.views import login
 import os
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index),
-    url(r'^buscar/$', views.buscar),
-    url(r'^resultado/$', views.resultado),
+    url(r'^$', login, {'template_name' : 'index.html'}, name='login'),
+    url(r'^buscar/$', views.buscar, name='buscar'),
+    url(r'^resultado/$', views.resultado, name='resultado'),
+    url(r'^registrar/$', views.UserFormView, name='UserFormView'),
+    url(r'^clasificador/$', views.clasificador, name='clasificador'),
+    url(r'^homepage/$', views.homepage, name='homepage'),
+
 ]
 
 urlpatterns += staticfiles_urlpatterns()

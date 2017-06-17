@@ -15,6 +15,13 @@ class Categoria(models.Model):
 class Document(models.Model):
     texto = models.CharField(max_length=20000)
     numero = models.IntegerField()
+    categoria=models.CharField(max_length=20, default="nada")
     #urllist = ListField()
     def __str__(self):
         return self.numero
+
+class Clasificar(models.Model):
+    texto= models.CharField(max_length=200000)
+    categoria=models.CharField(max_length=50)
+    def __str__(self):
+        return self.texto+"----aquisecortaeltexto----"+self.categoria
